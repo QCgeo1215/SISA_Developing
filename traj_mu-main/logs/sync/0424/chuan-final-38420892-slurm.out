@@ -1,0 +1,11 @@
+len(test_data) 43003
+Predicting with shard model and Loss model from Shard 1
+Predicting with shard model and Loss model from Shard 2
+Predicting with shard model and Loss model from Shard 3
+Predicting with shard model and Loss model from Shard 4
+Predicting with shard model and Loss model from Shard 5
+true_values.shape (43003, 2)
+weights.shape (5, 43003, 2)
+aggregated_predictions_weighted.shape (43003, 2)
+Results saved to ./taxi_data_Singapore_temp_0317/Model_shard_5_slice_3/3_1_SISA_Random_lstm/aggreate_result/weighted_aggregate_prediction_results_shards5_slice_3_20250426_154228.txt
+Results saved to ./taxi_data_Singapore_temp_0317/Model_shard_5_slice_3/3_1_SISA_Random_lstm/aggreate_result/average_aggregate_prediction_results_shards5_slice_3_20250426_154228.txt

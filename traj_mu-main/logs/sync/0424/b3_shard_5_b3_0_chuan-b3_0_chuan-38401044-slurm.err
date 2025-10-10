@@ -1,0 +1,9 @@
+/home/goux/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/ibex/user/goux/project/traj_mu/traj_mu/my_dataset.py:10: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  self.x_data = df[['lat_grid', 'lng_grid']].applymap(eval).values
+/ibex/user/goux/project/traj_mu/traj_mu/my_dataset.py:10: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  self.x_data = df[['lat_grid', 'lng_grid']].applymap(eval).values
+/ibex/user/goux/project/traj_mu/traj_mu/my_dataset.py:10: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  self.x_data = df[['lat_grid', 'lng_grid']].applymap(eval).values
+slurmstepd: error: *** JOB 38401044 ON gpu201-23-l CANCELLED AT 2025-04-24T20:44:41 ***

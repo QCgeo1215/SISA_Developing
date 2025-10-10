@@ -1,0 +1,29 @@
+#-=-=-=-=-=-=-=-=-=
+# source trajectory file   注意原csv文件存在的位置；给所有文件指定一个总的存储路径
+source_file: './taxi_data_Singapore/3-Slidng_Windows_Data_Clustering_Clean-sta-first400.csv'
+output_data_path: './test_toy_0711'
+
+#-=-=-=-=-=-=-=-=-=
+# SISA_Lstm_base_parameter
+num_shards: 5
+num_slices: 3
+# 建议batch_size 64
+SISA_Lstm_training_batch_size: 20
+# 建议根据 slice 的数量来评估设置 SISA epoch；
+# SISA为逐渐加入slice切片的训练方式，并翻倍epoch的数量；
+# 比如 slices 为 3, epoch 为 50 ，则训练过程为： 50*slice[1] + 100*slice[1,2] + 150*slice[1,2,3]
+SISA_Lstm_training_epoch : 10
+
+#-=-=-=-=-=-=-=-=-=
+# data size  针对本项目不要修改
+input_size: 2
+output_size: 2
+
+#-=-=-=-=-=-=-=-=-=
+# Direct_Lstm  直接训练，epoch建议设置在 100往上，batch_size可以比SISA大一个量级 ，比如SISA 64，这里可以给128
+Lstm_training_batch_size: 12
+Lstm_training_epoch: 20
+
+#-=-=-=-=-=-=-=-=-=
+# Loss_model_epoch  误差权重模型的训练epoch 建议100往上
+Loss_model_training_epoch: 10

@@ -1,0 +1,14 @@
+/ibex/project/c2283/chuan/Formal_Singapore_V1/my_dataset.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['final_grid_label'] = df['final_grid_label'].apply(lambda x: eval(x))
+Traceback (most recent call last):
+  File "/ibex/project/c2283/chuan/Formal_Singapore_V1/4_2_SISA_Clustering_Sort_Shard_Loss_weight_training.py", line 194, in <module>
+    main()
+  File "/ibex/project/c2283/chuan/Formal_Singapore_V1/4_2_SISA_Clustering_Sort_Shard_Loss_weight_training.py", line 165, in main
+    Loss_model_training(
+  File "/ibex/project/c2283/chuan/Formal_Singapore_V1/4_2_SISA_Clustering_Sort_Shard_Loss_weight_training.py", line 51, in Loss_model_training
+    dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=pad_collate_fn(), shuffle=False)
+TypeError: pad_collate_fn() missing 1 required positional argument: 'batch'

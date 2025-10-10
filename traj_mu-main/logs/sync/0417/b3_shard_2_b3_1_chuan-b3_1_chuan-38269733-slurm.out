@@ -1,0 +1,273 @@
+activation conda
+activation env
+args.shard_index: 2
+原始数据加载完成，共 429914 条记录
+model A start training index: 2
+./taxi_dat
+<class 'dict'>
+[65738, 39469, 70172, 62601, 74113, 39091, 1074, 72191, 5959, 36400]
+slice 1 contain 27313 data
+start training . . . . 
+Shard 2-5, Slice 1/3, Epoch 1 completed, Avg Loss: 46.7256
+Shard 2-5, Slice 1/3, Epoch 2 completed, Avg Loss: 27.3314
+Shard 2-5, Slice 1/3, Epoch 3 completed, Avg Loss: 18.3980
+Shard 2-5, Slice 1/3, Epoch 4 completed, Avg Loss: 14.0293
+Shard 2-5, Slice 1/3, Epoch 5 completed, Avg Loss: 13.0791
+Shard 2-5, Slice 1/3, Epoch 6 completed, Avg Loss: 11.1964
+Shard 2-5, Slice 1/3, Epoch 7 completed, Avg Loss: 10.4859
+Shard 2-5, Slice 1/3, Epoch 8 completed, Avg Loss: 10.1739
+Shard 2-5, Slice 1/3, Epoch 9 completed, Avg Loss: 9.9974
+Shard 2-5, Slice 1/3, Epoch 10 completed, Avg Loss: 9.8205
+Shard 2-5, Slice 1/3, Epoch 11 completed, Avg Loss: 9.1171
+Shard 2-5, Slice 1/3, Epoch 12 completed, Avg Loss: 8.7212
+Shard 2-5, Slice 1/3, Epoch 13 completed, Avg Loss: 8.6704
+Shard 2-5, Slice 1/3, Epoch 14 completed, Avg Loss: 8.7749
+Shard 2-5, Slice 1/3, Epoch 15 completed, Avg Loss: 8.7036
+Shard 2-5, Slice 1/3, Epoch 16 completed, Avg Loss: 8.3438
+Shard 2-5, Slice 1/3, Epoch 17 completed, Avg Loss: 8.2425
+Shard 2-5, Slice 1/3, Epoch 18 completed, Avg Loss: 8.2686
+Shard 2-5, Slice 1/3, Epoch 19 completed, Avg Loss: 8.2591
+Shard 2-5, Slice 1/3, Epoch 20 completed, Avg Loss: 8.1845
+Shard 2-5, Slice 1/3, Epoch 21 completed, Avg Loss: 7.9862
+Shard 2-5, Slice 1/3, Epoch 22 completed, Avg Loss: 8.2645
+Shard 2-5, Slice 1/3, Epoch 23 completed, Avg Loss: 8.0037
+Shard 2-5, Slice 1/3, Epoch 24 completed, Avg Loss: 7.9501
+Shard 2-5, Slice 1/3, Epoch 25 completed, Avg Loss: 7.9304
+Shard 2-5, Slice 1/3, Epoch 26 completed, Avg Loss: 8.1906
+Shard 2-5, Slice 1/3, Epoch 27 completed, Avg Loss: 7.9121
+Shard 2-5, Slice 1/3, Epoch 28 completed, Avg Loss: 7.5882
+Shard 2-5, Slice 1/3, Epoch 29 completed, Avg Loss: 7.5363
+Shard 2-5, Slice 1/3, Epoch 30 completed, Avg Loss: 7.2101
+Shard 2-5, Slice 1/3, Epoch 31 completed, Avg Loss: 7.1344
+Shard 2-5, Slice 1/3, Epoch 32 completed, Avg Loss: 7.2477
+Shard 2-5, Slice 1/3, Epoch 33 completed, Avg Loss: 7.2201
+Shard 2-5, Slice 1/3, Epoch 34 completed, Avg Loss: 7.1615
+Shard 2-5, Slice 1/3, Epoch 35 completed, Avg Loss: 7.2564
+Shard 2-5, Slice 1/3, Epoch 36 completed, Avg Loss: 7.4044
+Shard 2-5, Slice 1/3, Epoch 37 completed, Avg Loss: 7.1888
+Shard 2-5, Slice 1/3, Epoch 38 completed, Avg Loss: 7.2094
+Shard 2-5, Slice 1/3, Epoch 39 completed, Avg Loss: 7.2565
+Shard 2-5, Slice 1/3, Epoch 40 completed, Avg Loss: 7.1667
+Intermediate model for Shard 2, Slice 1 saved.
+[62504, 20640, 30647, 59101, 60252, 66690, 76685, 60071, 13028, 33829]
+slice 2 contain 52166 data
+start training . . . . 
+Shard 2-5, Slice 2/3, Epoch 1 completed, Avg Loss: 7.7350
+Shard 2-5, Slice 2/3, Epoch 2 completed, Avg Loss: 7.7891
+Shard 2-5, Slice 2/3, Epoch 3 completed, Avg Loss: 8.0023
+Shard 2-5, Slice 2/3, Epoch 4 completed, Avg Loss: 7.9318
+Shard 2-5, Slice 2/3, Epoch 5 completed, Avg Loss: 7.6825
+Shard 2-5, Slice 2/3, Epoch 6 completed, Avg Loss: 7.6481
+Epoch 00047: reducing learning rate of group 0 to 2.0000e-04.
+Shard 2-5, Slice 2/3, Epoch 7 completed, Avg Loss: 7.5805
+Shard 2-5, Slice 2/3, Epoch 8 completed, Avg Loss: 6.4686
+Shard 2-5, Slice 2/3, Epoch 9 completed, Avg Loss: 6.1138
+Shard 2-5, Slice 2/3, Epoch 10 completed, Avg Loss: 5.9651
+Shard 2-5, Slice 2/3, Epoch 11 completed, Avg Loss: 5.8563
+Shard 2-5, Slice 2/3, Epoch 12 completed, Avg Loss: 5.7668
+Shard 2-5, Slice 2/3, Epoch 13 completed, Avg Loss: 5.6666
+Shard 2-5, Slice 2/3, Epoch 14 completed, Avg Loss: 5.6018
+Shard 2-5, Slice 2/3, Epoch 15 completed, Avg Loss: 5.5122
+Shard 2-5, Slice 2/3, Epoch 16 completed, Avg Loss: 5.4775
+Shard 2-5, Slice 2/3, Epoch 17 completed, Avg Loss: 5.4166
+Shard 2-5, Slice 2/3, Epoch 18 completed, Avg Loss: 5.3871
+Shard 2-5, Slice 2/3, Epoch 19 completed, Avg Loss: 5.3116
+Shard 2-5, Slice 2/3, Epoch 20 completed, Avg Loss: 5.3039
+Shard 2-5, Slice 2/3, Epoch 21 completed, Avg Loss: 5.2234
+Shard 2-5, Slice 2/3, Epoch 22 completed, Avg Loss: 5.1485
+Shard 2-5, Slice 2/3, Epoch 23 completed, Avg Loss: 5.1214
+Shard 2-5, Slice 2/3, Epoch 24 completed, Avg Loss: 5.0433
+Shard 2-5, Slice 2/3, Epoch 25 completed, Avg Loss: 5.0302
+Shard 2-5, Slice 2/3, Epoch 26 completed, Avg Loss: 5.0110
+Shard 2-5, Slice 2/3, Epoch 27 completed, Avg Loss: 4.9571
+Shard 2-5, Slice 2/3, Epoch 28 completed, Avg Loss: 4.9436
+Shard 2-5, Slice 2/3, Epoch 29 completed, Avg Loss: 4.8997
+Shard 2-5, Slice 2/3, Epoch 30 completed, Avg Loss: 4.8473
+Shard 2-5, Slice 2/3, Epoch 31 completed, Avg Loss: 4.8651
+Shard 2-5, Slice 2/3, Epoch 32 completed, Avg Loss: 4.8006
+Shard 2-5, Slice 2/3, Epoch 33 completed, Avg Loss: 4.7719
+Shard 2-5, Slice 2/3, Epoch 34 completed, Avg Loss: 4.7516
+Shard 2-5, Slice 2/3, Epoch 35 completed, Avg Loss: 4.7382
+Shard 2-5, Slice 2/3, Epoch 36 completed, Avg Loss: 4.6972
+Shard 2-5, Slice 2/3, Epoch 37 completed, Avg Loss: 4.6918
+Shard 2-5, Slice 2/3, Epoch 38 completed, Avg Loss: 4.6515
+Shard 2-5, Slice 2/3, Epoch 39 completed, Avg Loss: 4.6120
+Shard 2-5, Slice 2/3, Epoch 40 completed, Avg Loss: 4.5877
+Shard 2-5, Slice 2/3, Epoch 41 completed, Avg Loss: 4.5768
+Shard 2-5, Slice 2/3, Epoch 42 completed, Avg Loss: 4.5462
+Shard 2-5, Slice 2/3, Epoch 43 completed, Avg Loss: 4.5218
+Shard 2-5, Slice 2/3, Epoch 44 completed, Avg Loss: 4.5111
+Shard 2-5, Slice 2/3, Epoch 45 completed, Avg Loss: 4.4865
+Shard 2-5, Slice 2/3, Epoch 46 completed, Avg Loss: 4.4637
+Shard 2-5, Slice 2/3, Epoch 47 completed, Avg Loss: 4.4424
+Shard 2-5, Slice 2/3, Epoch 48 completed, Avg Loss: 4.4316
+Shard 2-5, Slice 2/3, Epoch 49 completed, Avg Loss: 4.3960
+Shard 2-5, Slice 2/3, Epoch 50 completed, Avg Loss: 4.4169
+Shard 2-5, Slice 2/3, Epoch 51 completed, Avg Loss: 4.3890
+Shard 2-5, Slice 2/3, Epoch 52 completed, Avg Loss: 4.3628
+Shard 2-5, Slice 2/3, Epoch 53 completed, Avg Loss: 4.3358
+Shard 2-5, Slice 2/3, Epoch 54 completed, Avg Loss: 4.3109
+Shard 2-5, Slice 2/3, Epoch 55 completed, Avg Loss: 4.3010
+Shard 2-5, Slice 2/3, Epoch 56 completed, Avg Loss: 4.2877
+Shard 2-5, Slice 2/3, Epoch 57 completed, Avg Loss: 4.2658
+Shard 2-5, Slice 2/3, Epoch 58 completed, Avg Loss: 4.2467
+Shard 2-5, Slice 2/3, Epoch 59 completed, Avg Loss: 4.2389
+Shard 2-5, Slice 2/3, Epoch 60 completed, Avg Loss: 4.2021
+Shard 2-5, Slice 2/3, Epoch 61 completed, Avg Loss: 4.1760
+Shard 2-5, Slice 2/3, Epoch 62 completed, Avg Loss: 4.1607
+Shard 2-5, Slice 2/3, Epoch 63 completed, Avg Loss: 4.1968
+Shard 2-5, Slice 2/3, Epoch 64 completed, Avg Loss: 4.1644
+Shard 2-5, Slice 2/3, Epoch 65 completed, Avg Loss: 4.1514
+Shard 2-5, Slice 2/3, Epoch 66 completed, Avg Loss: 4.1239
+Shard 2-5, Slice 2/3, Epoch 67 completed, Avg Loss: 4.1018
+Shard 2-5, Slice 2/3, Epoch 68 completed, Avg Loss: 4.0938
+Shard 2-5, Slice 2/3, Epoch 69 completed, Avg Loss: 4.0708
+Shard 2-5, Slice 2/3, Epoch 70 completed, Avg Loss: 4.0576
+Shard 2-5, Slice 2/3, Epoch 71 completed, Avg Loss: 4.0714
+Shard 2-5, Slice 2/3, Epoch 72 completed, Avg Loss: 4.0276
+Shard 2-5, Slice 2/3, Epoch 73 completed, Avg Loss: 4.0134
+Shard 2-5, Slice 2/3, Epoch 74 completed, Avg Loss: 4.0008
+Shard 2-5, Slice 2/3, Epoch 75 completed, Avg Loss: 3.9859
+Shard 2-5, Slice 2/3, Epoch 76 completed, Avg Loss: 3.9724
+Shard 2-5, Slice 2/3, Epoch 77 completed, Avg Loss: 3.9593
+Shard 2-5, Slice 2/3, Epoch 78 completed, Avg Loss: 3.9408
+Shard 2-5, Slice 2/3, Epoch 79 completed, Avg Loss: 3.9307
+Shard 2-5, Slice 2/3, Epoch 80 completed, Avg Loss: 3.9253
+Intermediate model for Shard 2, Slice 2 saved.
+[61502, 40876, 61392, 64426, 68489, 59815, 63634, 34688, 78843, 72908]
+slice 3 contain 77085 data
+start training . . . . 
+Shard 2-5, Slice 3/3, Epoch 1 completed, Avg Loss: 4.3139
+Shard 2-5, Slice 3/3, Epoch 2 completed, Avg Loss: 4.2476
+Shard 2-5, Slice 3/3, Epoch 3 completed, Avg Loss: 4.2175
+Shard 2-5, Slice 3/3, Epoch 4 completed, Avg Loss: 4.1895
+Shard 2-5, Slice 3/3, Epoch 5 completed, Avg Loss: 4.1587
+Shard 2-5, Slice 3/3, Epoch 6 completed, Avg Loss: 4.1465
+Shard 2-5, Slice 3/3, Epoch 7 completed, Avg Loss: 4.1061
+Shard 2-5, Slice 3/3, Epoch 8 completed, Avg Loss: 4.1031
+Shard 2-5, Slice 3/3, Epoch 9 completed, Avg Loss: 4.0788
+Shard 2-5, Slice 3/3, Epoch 10 completed, Avg Loss: 4.0609
+Shard 2-5, Slice 3/3, Epoch 11 completed, Avg Loss: 4.0421
+Shard 2-5, Slice 3/3, Epoch 12 completed, Avg Loss: 4.0169
+Shard 2-5, Slice 3/3, Epoch 13 completed, Avg Loss: 3.9890
+Shard 2-5, Slice 3/3, Epoch 14 completed, Avg Loss: 3.9883
+Shard 2-5, Slice 3/3, Epoch 15 completed, Avg Loss: 3.9472
+Shard 2-5, Slice 3/3, Epoch 16 completed, Avg Loss: 3.9249
+Shard 2-5, Slice 3/3, Epoch 17 completed, Avg Loss: 3.9222
+Shard 2-5, Slice 3/3, Epoch 18 completed, Avg Loss: 3.9118
+Shard 2-5, Slice 3/3, Epoch 19 completed, Avg Loss: 3.8703
+Shard 2-5, Slice 3/3, Epoch 20 completed, Avg Loss: 3.8611
+Shard 2-5, Slice 3/3, Epoch 21 completed, Avg Loss: 3.8456
+Shard 2-5, Slice 3/3, Epoch 22 completed, Avg Loss: 3.8255
+Shard 2-5, Slice 3/3, Epoch 23 completed, Avg Loss: 3.7969
+Shard 2-5, Slice 3/3, Epoch 24 completed, Avg Loss: 3.8022
+Shard 2-5, Slice 3/3, Epoch 25 completed, Avg Loss: 3.7984
+Shard 2-5, Slice 3/3, Epoch 26 completed, Avg Loss: 3.7715
+Shard 2-5, Slice 3/3, Epoch 27 completed, Avg Loss: 3.7394
+Shard 2-5, Slice 3/3, Epoch 28 completed, Avg Loss: 3.7357
+Shard 2-5, Slice 3/3, Epoch 29 completed, Avg Loss: 3.7532
+Shard 2-5, Slice 3/3, Epoch 30 completed, Avg Loss: 3.7130
+Shard 2-5, Slice 3/3, Epoch 31 completed, Avg Loss: 3.7001
+Shard 2-5, Slice 3/3, Epoch 32 completed, Avg Loss: 3.6805
+Shard 2-5, Slice 3/3, Epoch 33 completed, Avg Loss: 3.6846
+Shard 2-5, Slice 3/3, Epoch 34 completed, Avg Loss: 3.6539
+Shard 2-5, Slice 3/3, Epoch 35 completed, Avg Loss: 3.6524
+Shard 2-5, Slice 3/3, Epoch 36 completed, Avg Loss: 3.6314
+Shard 2-5, Slice 3/3, Epoch 37 completed, Avg Loss: 3.6130
+Shard 2-5, Slice 3/3, Epoch 38 completed, Avg Loss: 3.6017
+Shard 2-5, Slice 3/3, Epoch 39 completed, Avg Loss: 3.5918
+Shard 2-5, Slice 3/3, Epoch 40 completed, Avg Loss: 3.5737
+Shard 2-5, Slice 3/3, Epoch 41 completed, Avg Loss: 3.5529
+Shard 2-5, Slice 3/3, Epoch 42 completed, Avg Loss: 3.5404
+Shard 2-5, Slice 3/3, Epoch 43 completed, Avg Loss: 3.5505
+Shard 2-5, Slice 3/3, Epoch 44 completed, Avg Loss: 3.5204
+Shard 2-5, Slice 3/3, Epoch 45 completed, Avg Loss: 3.5071
+Shard 2-5, Slice 3/3, Epoch 46 completed, Avg Loss: 3.4897
+Shard 2-5, Slice 3/3, Epoch 47 completed, Avg Loss: 3.4908
+Shard 2-5, Slice 3/3, Epoch 48 completed, Avg Loss: 3.4748
+Shard 2-5, Slice 3/3, Epoch 49 completed, Avg Loss: 3.4622
+Shard 2-5, Slice 3/3, Epoch 50 completed, Avg Loss: 3.4505
+Shard 2-5, Slice 3/3, Epoch 51 completed, Avg Loss: 3.4402
+Shard 2-5, Slice 3/3, Epoch 52 completed, Avg Loss: 3.4199
+Shard 2-5, Slice 3/3, Epoch 53 completed, Avg Loss: 3.4289
+Shard 2-5, Slice 3/3, Epoch 54 completed, Avg Loss: 3.4013
+Shard 2-5, Slice 3/3, Epoch 55 completed, Avg Loss: 3.3792
+Shard 2-5, Slice 3/3, Epoch 56 completed, Avg Loss: 3.3605
+Shard 2-5, Slice 3/3, Epoch 57 completed, Avg Loss: 3.3419
+Shard 2-5, Slice 3/3, Epoch 58 completed, Avg Loss: 3.3572
+Shard 2-5, Slice 3/3, Epoch 59 completed, Avg Loss: 3.3395
+Shard 2-5, Slice 3/3, Epoch 60 completed, Avg Loss: 3.3284
+Shard 2-5, Slice 3/3, Epoch 61 completed, Avg Loss: 3.2933
+Shard 2-5, Slice 3/3, Epoch 62 completed, Avg Loss: 3.2937
+Shard 2-5, Slice 3/3, Epoch 63 completed, Avg Loss: 3.2854
+Shard 2-5, Slice 3/3, Epoch 64 completed, Avg Loss: 3.2665
+Shard 2-5, Slice 3/3, Epoch 65 completed, Avg Loss: 3.2676
+Shard 2-5, Slice 3/3, Epoch 66 completed, Avg Loss: 3.2501
+Shard 2-5, Slice 3/3, Epoch 67 completed, Avg Loss: 3.2333
+Shard 2-5, Slice 3/3, Epoch 68 completed, Avg Loss: 3.2230
+Shard 2-5, Slice 3/3, Epoch 69 completed, Avg Loss: 3.2208
+Shard 2-5, Slice 3/3, Epoch 70 completed, Avg Loss: 3.2049
+Shard 2-5, Slice 3/3, Epoch 71 completed, Avg Loss: 3.2002
+Shard 2-5, Slice 3/3, Epoch 72 completed, Avg Loss: 3.2080
+Shard 2-5, Slice 3/3, Epoch 73 completed, Avg Loss: 3.1780
+Shard 2-5, Slice 3/3, Epoch 74 completed, Avg Loss: 3.1498
+Shard 2-5, Slice 3/3, Epoch 75 completed, Avg Loss: 3.1497
+Shard 2-5, Slice 3/3, Epoch 76 completed, Avg Loss: 3.1304
+Shard 2-5, Slice 3/3, Epoch 77 completed, Avg Loss: 3.1346
+Shard 2-5, Slice 3/3, Epoch 78 completed, Avg Loss: 3.1289
+Shard 2-5, Slice 3/3, Epoch 79 completed, Avg Loss: 3.1342
+Shard 2-5, Slice 3/3, Epoch 80 completed, Avg Loss: 3.0946
+Shard 2-5, Slice 3/3, Epoch 81 completed, Avg Loss: 3.0806
+Shard 2-5, Slice 3/3, Epoch 82 completed, Avg Loss: 3.0750
+Shard 2-5, Slice 3/3, Epoch 83 completed, Avg Loss: 3.0525
+Shard 2-5, Slice 3/3, Epoch 84 completed, Avg Loss: 3.0430
+Shard 2-5, Slice 3/3, Epoch 85 completed, Avg Loss: 3.0376
+Shard 2-5, Slice 3/3, Epoch 86 completed, Avg Loss: 3.0320
+Shard 2-5, Slice 3/3, Epoch 87 completed, Avg Loss: 2.9979
+Shard 2-5, Slice 3/3, Epoch 88 completed, Avg Loss: 3.0104
+Shard 2-5, Slice 3/3, Epoch 89 completed, Avg Loss: 2.9919
+Shard 2-5, Slice 3/3, Epoch 90 completed, Avg Loss: 2.9955
+Shard 2-5, Slice 3/3, Epoch 91 completed, Avg Loss: 2.9762
+Shard 2-5, Slice 3/3, Epoch 92 completed, Avg Loss: 2.9661
+Shard 2-5, Slice 3/3, Epoch 93 completed, Avg Loss: 3.0115
+Shard 2-5, Slice 3/3, Epoch 94 completed, Avg Loss: 2.9481
+Shard 2-5, Slice 3/3, Epoch 95 completed, Avg Loss: 2.9386
+Shard 2-5, Slice 3/3, Epoch 96 completed, Avg Loss: 2.9176
+Shard 2-5, Slice 3/3, Epoch 97 completed, Avg Loss: 2.9103
+Shard 2-5, Slice 3/3, Epoch 98 completed, Avg Loss: 2.9352
+Shard 2-5, Slice 3/3, Epoch 99 completed, Avg Loss: 2.9121
+Shard 2-5, Slice 3/3, Epoch 100 completed, Avg Loss: 2.8906
+Shard 2-5, Slice 3/3, Epoch 101 completed, Avg Loss: 2.8892
+Shard 2-5, Slice 3/3, Epoch 102 completed, Avg Loss: 2.8709
+Shard 2-5, Slice 3/3, Epoch 103 completed, Avg Loss: 2.8509
+Shard 2-5, Slice 3/3, Epoch 104 completed, Avg Loss: 2.8296
+Shard 2-5, Slice 3/3, Epoch 105 completed, Avg Loss: 2.8301
+Shard 2-5, Slice 3/3, Epoch 106 completed, Avg Loss: 2.8046
+Shard 2-5, Slice 3/3, Epoch 107 completed, Avg Loss: 2.8162
+Shard 2-5, Slice 3/3, Epoch 108 completed, Avg Loss: 2.8018
+Shard 2-5, Slice 3/3, Epoch 109 completed, Avg Loss: 2.7973
+Shard 2-5, Slice 3/3, Epoch 110 completed, Avg Loss: 2.7944
+Shard 2-5, Slice 3/3, Epoch 111 completed, Avg Loss: 2.7831
+Shard 2-5, Slice 3/3, Epoch 112 completed, Avg Loss: 2.7795
+Shard 2-5, Slice 3/3, Epoch 113 completed, Avg Loss: 2.7617
+Shard 2-5, Slice 3/3, Epoch 114 completed, Avg Loss: 2.7464
+Shard 2-5, Slice 3/3, Epoch 115 completed, Avg Loss: 2.7439
+Shard 2-5, Slice 3/3, Epoch 116 completed, Avg Loss: 2.7226
+Shard 2-5, Slice 3/3, Epoch 117 completed, Avg Loss: 2.7204
+Shard 2-5, Slice 3/3, Epoch 118 completed, Avg Loss: 2.7337
+Shard 2-5, Slice 3/3, Epoch 119 completed, Avg Loss: 2.6935
+Shard 2-5, Slice 3/3, Epoch 120 completed, Avg Loss: 2.6766
+Intermediate model for Shard 2, Slice 3 saved.
+Final model for Shard 2 saved.
+args.shard_index: 2
+原始数据加载完成，共 429914 条记录
+loss model start training index: 2
+1680
+提取 Shard 2 中的全部数据
+dataset_len
+加载的 Error DataFrame 示例：
+                                             lat_grid  ... final_grid_label
+62  [859, 858, 857, 856, 856, 855, 854, 853, 852, ...  ...           [6, 2]
+63  [811, 810, 810, 810, 810, 810, 810, 810, 810, ...  ...           [7, 1]
+
+[2 rows x 3 columns]

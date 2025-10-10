@@ -1,0 +1,31 @@
+__pycache__/
+.ipynb*
+submit*
+logs/3_12/**
+logs/4_12/**
+logs/**err
+logs/**out
+slurm*
+results_v0/
+Pre_script/
+dcgm/
+taxi_data_Singapore/
+Npy_file_Singapore/
+2_1_model_lstm_final/
+3_1_SISA_random_sort_final_shard_model/
+3_1_SISA_random_sort_sub_model/
+3_2_SISA_random_sort_loss_shard_model/
+3_3_agg_random_sort_shard_model_eval_result/
+4_1_SISA_clustering_sort_final_shard_model/
+4_1_SISA_clustering_sort_sub_model/
+4_2_SISA_clustering_sort_loss_shard_model/
+4_3_agg_clustering_sort_shard_model_eval_result/
+*.csv
+*pth
+# *txt
+# taxi_data_Singapore**/
+taxi_data_Singapore**/Model**/3_1**/**model/
+taxi_data_Singapore**/Model**/4_1**/**model/
+taxi_data_Singapore**/Model**/2_1**/**pth
+taxi_data_Singapore**/Model**/npy**/
+taxi_data_Singapore**/Model**/0**/

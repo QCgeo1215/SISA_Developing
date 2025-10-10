@@ -1,0 +1,20 @@
+Threshold 1:
+Correct predictions: 753/43003
+Accuracy: 1.75%
+
+Threshold 2:
+Correct predictions: 2762/43003
+Accuracy: 6.42%
+
+Threshold 3:
+Correct predictions: 5680/43003
+Accuracy: 13.21%
+
+Threshold 4:
+Correct predictions: 9368/43003
+Accuracy: 21.78%
+
+Threshold 5:
+Correct predictions: 13181/43003
+Accuracy: 30.65%
+

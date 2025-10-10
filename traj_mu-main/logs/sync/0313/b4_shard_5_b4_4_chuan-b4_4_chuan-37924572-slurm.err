@@ -1,0 +1,8 @@
+/ibex/project/c2283/chuan/Formal_Singapore_V1/collate_functions.py:18: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  y_data = torch.tensor(y_data, dtype=torch.float32)
+/ibex/project/c2283/chuan/Formal_Singapore_V1/collate_functions.py:18: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  y_data = torch.tensor(y_data, dtype=torch.float32)
+/ibex/user/wangc0g/mambaforge/envs/chuan/lib/python3.10/site-packages/torch/nn/modules/loss.py:928: UserWarning: Using a target size (torch.Size([1024, 1, 2])) that is different to the input size (torch.Size([1024, 2])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.smooth_l1_loss(input, target, reduction=self.reduction, beta=self.beta)
+/ibex/user/wangc0g/mambaforge/envs/chuan/lib/python3.10/site-packages/torch/nn/modules/loss.py:928: UserWarning: Using a target size (torch.Size([491, 1, 2])) that is different to the input size (torch.Size([491, 2])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.smooth_l1_loss(input, target, reduction=self.reduction, beta=self.beta)

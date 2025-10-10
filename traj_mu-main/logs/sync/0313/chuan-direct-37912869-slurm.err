@@ -1,0 +1,6 @@
+/ibex/project/c2283/chuan/Formal_Singapore_V1/collate_functions_V2.py:6: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  y_data = torch.tensor(y_data, dtype=torch.float32)
+/ibex/project/c2283/chuan/Formal_Singapore_V1/collate_functions_V2.py:19: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  y_data = torch.tensor(y_data, dtype=torch.float32)
+/ibex/project/c2283/chuan/Formal_Singapore_V1/collate_functions.py:18: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  y_data = torch.tensor(y_data, dtype=torch.float32)

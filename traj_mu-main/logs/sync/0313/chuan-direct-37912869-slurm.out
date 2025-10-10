@@ -1,0 +1,228 @@
+activation conda
+activation env
+Directory created at: ./taxi_data_Singapore_temp_0313/Model_shard_5_slice_3
+Directory structure created at: ./taxi_data_Singapore_temp_0313/Model_shard_5_slice_3
+训练数据中 trj_id_set 的数量: 25200
+测试数据中 trj_id_set 的数量: 2800
+Cluster 样本统计: {0: 89889, 1: 12187, 2: 47169, 3: 53577, 4: 57035, 5: 33818, 6: 54300, 7: 38995}
+排序后的 trj_id_set: [78371, 65738, 67884, 75826, 65050, 67025, 39469, 59076, 15234, 71570] (仅显示前10个)
+
+每个聚类排序 shard 的 cluster 样本数量：
+Shard 1: {0: 18024, 1: 2537, 2: 9517, 3: 10760, 4: 11528, 5: 6731, 6: 10841, 7: 7863}
+Shard 2: {0: 17992, 1: 2502, 2: 9367, 3: 10590, 4: 11369, 5: 6678, 6: 10844, 7: 7849}
+Shard 3: {0: 17969, 1: 2451, 2: 9123, 3: 10747, 4: 11354, 5: 6757, 6: 10801, 7: 7940}
+Shard 4: {0: 17958, 1: 2333, 2: 9601, 3: 10788, 4: 11391, 5: 6767, 6: 10985, 7: 7590}
+Shard 5: {0: 17946, 1: 2364, 2: 9561, 3: 10692, 4: 11393, 5: 6885, 6: 10829, 7: 7753}
+
+每个随机分组 shard 的 cluster 样本数量：
+Shard 1: {0: 18302, 1: 2617, 2: 9211, 3: 10656, 4: 11760, 5: 6650, 6: 10593, 7: 7940}
+Shard 2: {0: 17576, 1: 2371, 2: 9701, 3: 10753, 4: 10940, 5: 6644, 6: 11332, 7: 7995}
+Shard 3: {0: 18566, 1: 2228, 2: 9002, 3: 10575, 4: 11606, 5: 6709, 6: 10659, 7: 7983}
+Shard 4: {0: 18008, 1: 2416, 2: 9690, 3: 10641, 4: 11236, 5: 6804, 6: 10890, 7: 7625}
+Shard 5: {0: 17437, 1: 2555, 2: 9565, 3: 10952, 4: 11493, 5: 7011, 6: 10826, 7: 7452}
+训练分片已保存至: ./taxi_data_Singapore_temp_0313/Model_shard_5_slice_3/npy_index_file/training_shard_random_assignment.npy 和 ./taxi_data_Singapore_temp_0313/Model_shard_5_slice_3/npy_index_file/training_shard_cluster_assignment.npy
+测试数据已保存至: ./taxi_data_Singapore_temp_0313/Model_shard_5_slice_3/npy_index_file/test_trj_id_sets.npy
+训练数据加载完成，共 386970 条记录
+Epoch 1/200, Loss: 464.7219
+Epoch 2/200, Loss: 427.7308
+Epoch 3/200, Loss: 393.6145
+Epoch 4/200, Loss: 360.2431
+Epoch 5/200, Loss: 328.0582
+Epoch 6/200, Loss: 297.1042
+Epoch 7/200, Loss: 267.6102
+Epoch 8/200, Loss: 240.1885
+Epoch 9/200, Loss: 214.8280
+Epoch 10/200, Loss: 191.7212
+Epoch 11/200, Loss: 171.7004
+Epoch 12/200, Loss: 157.0358
+Epoch 13/200, Loss: 147.0774
+Epoch 14/200, Loss: 140.1928
+Epoch 15/200, Loss: 135.3647
+Epoch 16/200, Loss: 132.1498
+Epoch 17/200, Loss: 129.9955
+Epoch 18/200, Loss: 128.6779
+Epoch 19/200, Loss: 128.0362
+Epoch 20/200, Loss: 127.7110
+Epoch 21/200, Loss: 127.5652
+Epoch 22/200, Loss: 127.5129
+Epoch 23/200, Loss: 121.0828
+Epoch 24/200, Loss: 104.9565
+Epoch 25/200, Loss: 97.3173
+Epoch 26/200, Loss: 92.7097
+Epoch 27/200, Loss: 88.7480
+Epoch 28/200, Loss: 85.1023
+Epoch 29/200, Loss: 79.8998
+Epoch 30/200, Loss: 70.5521
+Epoch 31/200, Loss: 56.9122
+Epoch 32/200, Loss: 48.8053
+Epoch 33/200, Loss: 42.3178
+Epoch 34/200, Loss: 36.6668
+Epoch 35/200, Loss: 31.6249
+Epoch 36/200, Loss: 27.1588
+Epoch 37/200, Loss: 23.2977
+Epoch 38/200, Loss: 19.8630
+Epoch 39/200, Loss: 16.8746
+Epoch 40/200, Loss: 14.5109
+Epoch 41/200, Loss: 12.7391
+Epoch 42/200, Loss: 11.2310
+Epoch 43/200, Loss: 10.0525
+Epoch 44/200, Loss: 9.1039
+Epoch 45/200, Loss: 8.3312
+Epoch 46/200, Loss: 7.6024
+Epoch 47/200, Loss: 7.0798
+Epoch 48/200, Loss: 6.5784
+Epoch 49/200, Loss: 6.2045
+Epoch 50/200, Loss: 5.8340
+Epoch 51/200, Loss: 5.5604
+Epoch 52/200, Loss: 5.2567
+Epoch 53/200, Loss: 5.0467
+Epoch 54/200, Loss: 4.8989
+Epoch 55/200, Loss: 4.7563
+Epoch 56/200, Loss: 4.5667
+Epoch 57/200, Loss: 4.4599
+Epoch 58/200, Loss: 4.3929
+Epoch 59/200, Loss: 4.2539
+Epoch 60/200, Loss: 4.1434
+Epoch 61/200, Loss: 4.2563
+Epoch 62/200, Loss: 4.1015
+Epoch 63/200, Loss: 4.0115
+Epoch 64/200, Loss: 3.9289
+Epoch 65/200, Loss: 3.8347
+Epoch 66/200, Loss: 3.8032
+Epoch 67/200, Loss: 3.7579
+Epoch 68/200, Loss: 3.6916
+Epoch 69/200, Loss: 3.6344
+Epoch 70/200, Loss: 3.5901
+Epoch 71/200, Loss: 3.5535
+Epoch 72/200, Loss: 3.5366
+Epoch 73/200, Loss: 3.4746
+Epoch 74/200, Loss: 3.4301
+Epoch 75/200, Loss: 3.4053
+Epoch 76/200, Loss: 3.3935
+Epoch 77/200, Loss: 3.3670
+Epoch 78/200, Loss: 3.3114
+Epoch 79/200, Loss: 3.3182
+Epoch 80/200, Loss: 3.2607
+Epoch 81/200, Loss: 3.2247
+Epoch 82/200, Loss: 3.2219
+Epoch 83/200, Loss: 3.1734
+Epoch 84/200, Loss: 3.1596
+Epoch 85/200, Loss: 3.1571
+Epoch 86/200, Loss: 3.1077
+Epoch 87/200, Loss: 3.0983
+Epoch 88/200, Loss: 3.0632
+Epoch 89/200, Loss: 3.0587
+Epoch 90/200, Loss: 3.0076
+Epoch 91/200, Loss: 3.0137
+Epoch 92/200, Loss: 2.9849
+Epoch 93/200, Loss: 2.9750
+Epoch 94/200, Loss: 2.9579
+Epoch 95/200, Loss: 2.9441
+Epoch 96/200, Loss: 2.9272
+Epoch 97/200, Loss: 2.9227
+Epoch 98/200, Loss: 2.8954
+Epoch 99/200, Loss: 2.8861
+Epoch 100/200, Loss: 2.8567
+Epoch 101/200, Loss: 2.8327
+Epoch 102/200, Loss: 2.8074
+Epoch 103/200, Loss: 2.8142
+Epoch 104/200, Loss: 2.7980
+Epoch 105/200, Loss: 2.7809
+Epoch 106/200, Loss: 2.7887
+Epoch 107/200, Loss: 2.7688
+Epoch 108/200, Loss: 2.7371
+Epoch 109/200, Loss: 2.7469
+Epoch 110/200, Loss: 2.7212
+Epoch 111/200, Loss: 2.6924
+Epoch 112/200, Loss: 2.7070
+Epoch 113/200, Loss: 2.6677
+Epoch 114/200, Loss: 2.6981
+Epoch 115/200, Loss: 2.6518
+Epoch 116/200, Loss: 2.6796
+Epoch 117/200, Loss: 2.6348
+Epoch 118/200, Loss: 2.6450
+Epoch 119/200, Loss: 2.6197
+Epoch 120/200, Loss: 2.6143
+Epoch 121/200, Loss: 2.6016
+Epoch 122/200, Loss: 2.5769
+Epoch 123/200, Loss: 2.5794
+Epoch 124/200, Loss: 2.5674
+Epoch 125/200, Loss: 2.5666
+Epoch 126/200, Loss: 2.5639
+Epoch 127/200, Loss: 2.5280
+Epoch 128/200, Loss: 2.5196
+Epoch 129/200, Loss: 2.5318
+Epoch 130/200, Loss: 2.5201
+Epoch 131/200, Loss: 2.4846
+Epoch 132/200, Loss: 2.4946
+Epoch 133/200, Loss: 2.4800
+Epoch 134/200, Loss: 2.4505
+Epoch 135/200, Loss: 2.4731
+Epoch 136/200, Loss: 2.4632
+Epoch 137/200, Loss: 2.4472
+Epoch 138/200, Loss: 2.4501
+Epoch 139/200, Loss: 2.4392
+Epoch 140/200, Loss: 2.4310
+Epoch 141/200, Loss: 2.4067
+Epoch 142/200, Loss: 2.4094
+Epoch 143/200, Loss: 2.4049
+Epoch 144/200, Loss: 2.4029
+Epoch 145/200, Loss: 2.3797
+Epoch 146/200, Loss: 2.3630
+Epoch 147/200, Loss: 2.3756
+Epoch 148/200, Loss: 2.3836
+Epoch 149/200, Loss: 2.3694
+Epoch 150/200, Loss: 2.3607
+Epoch 151/200, Loss: 2.3484
+Epoch 152/200, Loss: 2.3468
+Epoch 153/200, Loss: 2.3211
+Epoch 154/200, Loss: 2.3258
+Epoch 155/200, Loss: 2.3296
+Epoch 156/200, Loss: 2.3061
+Epoch 157/200, Loss: 2.3196
+Epoch 158/200, Loss: 2.3134
+Epoch 159/200, Loss: 2.3017
+Epoch 160/200, Loss: 2.2935
+Epoch 161/200, Loss: 2.2721
+Epoch 162/200, Loss: 2.3078
+Epoch 163/200, Loss: 2.2839
+Epoch 164/200, Loss: 2.2707
+Epoch 165/200, Loss: 2.2771
+Epoch 166/200, Loss: 2.2552
+Epoch 167/200, Loss: 2.2416
+Epoch 168/200, Loss: 2.2620
+Epoch 169/200, Loss: 2.2432
+Epoch 170/200, Loss: 2.2336
+Epoch 171/200, Loss: 2.2192
+Epoch 172/200, Loss: 2.2112
+Epoch 173/200, Loss: 2.2042
+Epoch 174/200, Loss: 2.2016
+Epoch 175/200, Loss: 2.2138
+Epoch 176/200, Loss: 2.2131
+Epoch 177/200, Loss: 2.1980
+Epoch 178/200, Loss: 2.1918
+Epoch 179/200, Loss: 2.1883
+Epoch 180/200, Loss: 2.1868
+Epoch 181/200, Loss: 2.1724
+Epoch 182/200, Loss: 2.1702
+Epoch 183/200, Loss: 2.1700
+Epoch 184/200, Loss: 2.1518
+Epoch 185/200, Loss: 2.1604
+Epoch 186/200, Loss: 2.1542
+Epoch 187/200, Loss: 2.1429
+Epoch 188/200, Loss: 2.1413
+Epoch 189/200, Loss: 2.1348
+Epoch 190/200, Loss: 2.1364
+Epoch 191/200, Loss: 2.1380
+Epoch 192/200, Loss: 2.1352
+Epoch 193/200, Loss: 2.1173
+Epoch 194/200, Loss: 2.1187
+Epoch 195/200, Loss: 2.1141
+Epoch 196/200, Loss: 2.1060
+Epoch 197/200, Loss: 2.1094
+Epoch 198/200, Loss: 2.1181
+Epoch 199/200, Loss: 2.0962
+Epoch 200/200, Loss: 2.0913
+模型已保存至: ./taxi_data_Singapore_temp_0313/Model_shard_5_slice_3/2_1_Direct_lstm/final_Lstm_model.pth
+测试数据加载完成，共 43010 条记录
+Results saved to ./taxi_data_Singapore_temp_0313/Model_shard_5_slice_3/2_1_Direct_lstm/Lstm_model_test_accuracy.txt
